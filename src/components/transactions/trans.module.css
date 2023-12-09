@@ -1,0 +1,27 @@
+.history {
+    border-collapse: collapse;
+    width:700px;
+    text-align: center;
+    margin: 0 auto;
+    border: 1px solid #ddd;
+    color: #888b8f;
+  }
+  .row {
+    padding: 8px;
+  }
+  .data,
+  .datafirst {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  .datafirst {
+    text-transform: capitalize;
+}
+.head {
+    padding-top: 12px;
+  padding-bottom: 12px;
+    text-align: center;
+    background-color: rgb(58, 181, 202);
+    color: white; 
+    border: 1px solid white;
+}

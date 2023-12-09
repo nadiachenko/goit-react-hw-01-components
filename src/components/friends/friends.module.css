@@ -1,0 +1,17 @@
+.friendscontainer {
+    width:300px;
+    text-align: center;
+    margin: 15px auto;
+  
+    color: #888b8f;
+}
+  .friends{
+
+    display:flex;
+    flex-direction: column;
+    padding: 0px 0px;
+    list-style: none;
+    margin: 0px;
+    
+  }
+  

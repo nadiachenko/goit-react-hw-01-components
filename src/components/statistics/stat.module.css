@@ -1,0 +1,38 @@
+.statistics {
+    width:400px;
+    text-align: center;
+    margin: 15px auto;
+    border: 1px solid #ececec;
+    color: #888b8f;
+}
+.title {
+    text-transform: uppercase;
+    color: #888b8f;  
+  }
+
+  .stats{
+    display:flex;
+    flex-direction: row;
+    padding: 0px 0px;
+    list-style: none;
+    margin: 0px;
+    border-top: 1px solid #ececec;
+  }
+  .statslist {
+    
+    display: flex;
+    flex-direction: column;
+    flex-basis: calc(100%/5);
+    padding: 15px 0px;
+    
+   }
+  
+  .statslabel {
+    margin-bottom: 6px;
+    
+   }
+   .statsvalue,
+   .statslabel {
+    color:white;
+    font-size: 14px;
+   }
