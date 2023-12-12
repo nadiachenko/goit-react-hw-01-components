@@ -24,10 +24,7 @@
     padding: 0px 18px;
     
   }
- 
-  .red,
-  .green
-  {
+  .status {
     border-radius: 50%;
     width: 10px;
     height: 10px;
@@ -35,20 +32,3 @@
     margin-left: 10px
     
   }
-  .green {
-    background-color: green;
-    border-radius: 50%;
-    width: 10px;
-    height: 10px;
-    align-self: center;
-    margin-left: 10px
-  }
-  .red {
-    background-color: red;
-    border-radius: 50%;
-    width: 10px;
-    height: 10px;
-    align-self: center;
-    margin-left: 10px
-  }
-  
