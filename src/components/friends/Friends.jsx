@@ -1,20 +1,20 @@
 import css from './friends.module.css'
-import {Friend} from 'components/friend/friend'
+import { Friend } from 'components/Friend/friend'
 
 
 
-export const FriendList = ({friends}) => {
-  return(<div class={css.friendscontainer}>
-      <ul class={css.friends}>
-    {friends.map(friend => (
-        <Friend 
-        avatar={friend.avatar} 
-        isOnline={friend.isOnline} 
-        name={friend.name}
-        id={friend.id}  
-        />
-    ))}
+export const FriendList = ({ friends }) => {
+    return (<div className={css.friendscontainer}>
+        <ul className={css.friends}>
+            {friends.map(({ avatar, isOnline, name, id }) => (
+                <Friend
+                    key={id}
+                    avatar={avatar}
+                    isOnline={isOnline}
+                    name={name}
+                />
+            ))}
         </ul>
-        </div>) 
-    
+    </div>)
+
 }
