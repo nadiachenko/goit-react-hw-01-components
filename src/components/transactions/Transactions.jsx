@@ -1,15 +1,5 @@
 import css from './trans.module.css'
 
-function getColor(items) {
-  console.log(items.length)
-  for (let i = 0; i < items.length; i++) {
-    if (i % 2 === 0) {
-      return "blue";
-    } else {
-      return "red"
-    }
-  }
-};
 
 export const TransactionHistory = ({ items }) => {
 
